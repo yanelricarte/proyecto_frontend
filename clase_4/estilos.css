@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    font-size: 10px;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(201, 200, 200);
+}
+
+.encabezado{
+background-image: url('./img/fondo_harrypotter.jpg');
+background-color: rgb(221, 219, 219);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding: 2rem;
+height: 30vh;
+}
+
+.menuSuperior{
+    list-style: none;
+    text-align: center;
+
+}
+
+.menuSuperior li{
+    display: inline-block;
+
+}
+
+.menuSuperior a{
+    text-decoration: none;
+    color: rgb(247001, 169, 80);
+    font-weight: 700;
+    font-size: 1.4rem;
+    padding: 2rem;
+}
+
+.contenido{
+    background-color: aqua;
+    height: 500px;
+
+}
+.azul{
+    background-color: blue;
+    width: 100%;
+}
+.rojo{
+    background-color: rgb(210, 57, 57);
+}
+.cuadrado{
+    background-color: green;
+    height: 150px;  /* % vh vw*/
+    width: 150px;
+    padding: 2rem;
+    border: solid 5px black;
+    overflow: auto;
+    /* margin-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem; */
+    margin: 1rem 2rem 3rem 4rem;
+
+    position: absolute;
+    top: 140px;
+    left: 40px;
+
+
+
+}
+
+/* ejemplo submenu */
+    .menu {
+        list-style: none;
+        font-size:0 /* truco por el uso de inline-block*/
+    }
+    li {
+        display: inline-block;
+        width: 25%;
+        position:relative;
+        font-size: 14px
+    }
+    .submenu {
+        position: absolute;
+        display: none;
+    }
+    .submenu li {
+        display: block;
+    }
+    .menu li:hover ul {
+        display:block;
+    }
+    
