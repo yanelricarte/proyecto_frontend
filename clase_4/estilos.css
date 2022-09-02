@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -46,44 +47,63 @@ height: 30vh;
 }
 
 .contenido{
-    background-color: aqua;
-    height: 500px;
+    background-color: rgb(234, 181, 181);
+    padding: 2rem;
+    width: 70%;
+    float: left;
 
 }
-.azul{
-    background-color: blue;
+
+.contenido__imagen{
+    width: 50%;
+ 
+}
+
+.contenido__imagen img{
+    width: 100%;   
+    box-shadow: 5px 5px rgba(107, 107, 107, 0.514);
+    border-radius: 10px;
+}
+
+.contenido__sugerencias{
+    background-color: rgb(228, 198, 255);
+    line-height: 2rem;
+    width: 30%;
+    padding: 2rem;
+    float: right;
+    height: 1100px;
+}
+
+.sugerencias_libros{
+    padding-top: 1rem;
+    width: 90%;
+}
+
+.sugerencias_libros img{
     width: 100%;
 }
-.rojo{
-    background-color: rgb(210, 57, 57);
+.lista_libros{
+    padding-top: 1rem;
 }
-.cuadrado{
-    background-color: green;
-    height: 150px;  /* % vh vw*/
-    width: 150px;
-    padding: 2rem;
-    border: solid 5px black;
-    overflow: auto;
-    /* margin-top: 1rem;
-    margin-right: 2rem;
-    margin-bottom: 3rem;
-    margin-left: 4rem; */
-    margin: 1rem 2rem 3rem 4rem;
-
-    position: absolute;
-    top: 140px;
-    left: 40px;
 
 
+
+
+.footer{
+    background-color: black;
+    clear: both;
+    color: white;
 
 }
+
+
 
 /* ejemplo submenu */
     .menu {
         list-style: none;
         font-size:0 /* truco por el uso de inline-block*/
     }
-    li {
+    .menu li {
         display: inline-block;
         width: 25%;
         position:relative;
