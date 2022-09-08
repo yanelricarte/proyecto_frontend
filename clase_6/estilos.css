@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 10px;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(201, 200, 200);
+}
+
+.encabezado{
+background-image: url('./img/fondo_harrypotter.jpg');
+background-color: rgb(221, 219, 219);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding: 2rem;
+height: 30vh;
+}
+
+.menuSuperior{
+    list-style: none;
+    text-align: center;
+
+}
+
+.menuSuperior li{
+    display: inline-block;
+
+}
+
+.menuSuperior a, .menuFooter a{
+    text-decoration: none;
+    color: rgb(247001, 169, 80);
+    font-weight: 700;
+    font-size: 1.4rem;
+    padding: 2rem;
+}
+
+.contenedor{
+    display: flex;
+
+}
+
+.contenido{
+    background-color: rgb(234, 181, 181);
+    padding: 1rem;
+    width: 80%;
+
+}
+.contenido__personajes{
+    padding: 1rem;
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+
+}
+
+.contenido__imagen{
+    width: 100%;
+ 
+}
+
+.contenido__imagen img{
+    width: 80%;   
+    margin: 1rem;
+    box-shadow: 5px 5px rgba(107, 107, 107, 0.514);
+    border-radius: 10px;
+}
+
+.contenido__sugerencias{
+    background-color: rgb(228, 198, 255);
+    line-height: 2rem;
+    padding: 2rem;
+    height: 1100px;
+}
+
+.sugerencias_libros{
+    padding-top: 1rem;
+    width: 90%;
+}
+
+.sugerencias_libros img{
+    width: 100%;
+}
+.lista_libros{
+    padding-top: 1rem;
+}
+
+
+/* FOOTER */
+
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+
+}
+.bloqueFooter{
+    display: flex;
+    justify-content: space-around;
+}
+.menuFooter{
+    list-style: none;
+}
+
+.menuFooter a{
+    color: white;
+
+}
+.link a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.creditoFinal{
+    text-align: center;
+}
+
+/* ejemplo submenu */
+    .menu {
+        list-style: none;
+        font-size:0 /* truco por el uso de inline-block*/
+    }
+    .menu li {
+        display: inline-block;
+        width: 25%;
+        position:relative;
+        font-size: 14px
+    }
+    .submenu {
+        position: absolute;
+        display: none;
+    }
+    .submenu li {
+        display: block;
+    }
+    .menu li:hover ul {
+        display:block;
+    }
+
+
+    /* Formulario */
+
+    .boton_enviar{
+        background-color: aqua;
+        border-color: aqua;
+        border-radius: 4px;
+    }
+    .boton_enviar:hover{
+        background-color: blueviolet;
+        border: 2px solid;
+        border-color:blueviolet;
+        font-size: 2rem;
+
+    }
+    
+    /* Pseudoclases */
+    a:hover{ font-weight:bold; background-color:blue; color:white; text-decoration:underline; }
+    a:link{ text-decoration:none; color:red; }
+    a:visited{ color:#999999; }
+    a:active{ background-color:yellow; color:black; }
+
+
+    div:not(.padre){
+        padding-left:40px;
+        padding-right:40px;
+    }
+    
+
+    .padre div:nth-child(2){ font-weight:bold; color:orange; }
