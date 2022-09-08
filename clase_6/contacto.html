@@ -21,59 +21,60 @@
         </nav>
     </header>
 
-    <section>
+    <section class="contacto">
 
-        <form action="">
-            <fieldset>
+        <form action="https://formspree.io/f/mnqrjoar" method="post" class="formulario">
+            <fieldset class="fieldset">
                 <legend> Formulario de contacto</legend>
 
-            <label for="nombre"> Nombre</label>
-            <input type="text" name="nombre" id="nombre" placeholder="ingresa tu nombre">
-            <br>
-            <label for="correo"> Correo electrónico</label>
-            <input type="email" name="correo" id="correo" placeholder="Ingresa tu email">
-            <br>
+                <label for="nombre"> Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="ingresa tu nombre">
 
-            <label for="clave"> Contraseña</label>
-            <input type="password" name="clave" id="clave" placeholder="ingresa tu contraseña">
-            <br>
+                <label for="correo"> Correo electrónico</label>
+                <input type="email" name="correo" id="correo" placeholder="Ingresa tu email">
 
-            <label for="fecha"> Fecha de nacimiento</label>
-            <input type="date" name="fecha" required>
-            <br> <label for="mensaje"> Escribi tu comentario</label>
-            <br>
-            <textarea name="mensaje" id="mensaje" cols="20" rows="5" minlength="2" maxlength="40"></textarea>
-            <br>
+                <label for="clave"> Contraseña</label>
+                <input type="password" name="clave" id="clave" placeholder="ingresa tu contraseña">
 
-            <!-- Menu desplegable -->
-            <label for="talle">Talles</label>
-            <select name="talle" id="talle">
-                <option value="l"> Large</option>
-                <option value="m"> Medium</option>
-                <option value="s"> Small</option>
+                <label for="fecha"> Fecha de nacimiento</label>
+                <input type="date" name="fecha" required>
+                <br> <label for="mensaje"> Escribi tu comentario</label>
 
-            </select>
-            <br>
-            <!-- Botones Radio -->
+                <textarea name="mensaje" id="mensaje" cols="20" rows="5" minlength="2" maxlength="40"></textarea>
 
-            <label for="pais"> Argentina</label>
-            <input type="radio" name="pais" value="argentina">
-            <label for="pais"> Uruguay</label>
-            <input type="radio" name="pais" value="uruguay">
-            <label for="pais"> Chile</label>
-            <input type="radio" name="pais" value="chile">
-            <br>
+                <!-- Menu desplegable -->
+                <label for="talle">Talles</label>
+                <select name="talle" id="talle">
+                    <option value="l"> Large</option>
+                    <option value="m"> Medium</option>
+                    <option value="s"> Small</option>
 
-            <!-- Casillas de chequeo -->
+                </select>
 
-            <input type="checkbox" name="acepta" value="1">
-            <br> <label> Acepta los términos y condiciones</label>
+                <!-- Botones Radio -->
+                <p> País de origen</p>
 
-            <!-- Botones -->
-            <input type="submit" value="Enviar formulario" class="boton_enviar">
-            <input type="reset" value="Limpiar formulario">
-            <input type="button" value="Sin acciones">
-</fieldset>
+                <label for="pais"> Argentina</label>
+                <input type="radio" name="pais" value="argentina">
+
+                <label for="pais"> Uruguay</label>
+                <input type="radio" name="pais" value="uruguay">
+
+                <label for="pais"> Chile</label>
+                <input type="radio" name="pais" value="chile">
+                <br>
+
+                <!-- Casillas de chequeo -->
+                <div class="checkbox">
+                    <input type="checkbox" name="acepta" value="1">
+                    <label> Acepta los términos y condiciones</label>
+                </div>
+
+                <!-- Botones -->
+                <input type="submit" value="Enviar formulario" class="boton_enviar">
+                <input type="reset" value="Limpiar formulario">
+                <input type="button" value="Sin acciones">
+            </fieldset>
         </form>
 
     </section>
@@ -97,7 +98,7 @@
             <p>Párrafo 5</p>
             <p>Párrafo 6</p>
         </div>
-        
+
     </section>
 
 

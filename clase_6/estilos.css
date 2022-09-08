@@ -150,6 +150,35 @@ height: 30vh;
 
 
     /* Formulario */
+    .contacto{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formulario{
+        padding: 4rem;
+        margin: 2rem;
+        background-color: #E7E7E7;
+        border-radius: 5px;
+    }
+
+    .formulario input, .formulario textarea, .formulario select{
+        margin-bottom: 1.5rem;
+        width: 100%;
+        padding: 1rem;
+    }
+    .fieldset, legend{
+        border: none;
+        
+    }
+    .checkbox{
+        display: flex;
+    
+    }
+    .checkbox input{
+        width: 5%;
+    }
 
     .boton_enviar{
         background-color: aqua;
@@ -171,10 +200,10 @@ height: 30vh;
     a:active{ background-color:yellow; color:black; }
 
 
-    div:not(.padre){
+    /* div:not(.padre){
         padding-left:40px;
         padding-right:40px;
-    }
+    } */
     
 
     .padre div:nth-child(2){ font-weight:bold; color:orange; }
