@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Mobile FIRST */
+body{
+    background-color: aqua;
+}
+
+.tienda{
+    background-color: brown;
+    text-align: center;
+    padding: 2rem;
+
+}
+.tienda img{
+    width: 60%;
+}
+.comunidad{
+    background-color: blueviolet;
+    padding-top: 2rem;    
+    text-align: center;
+
+}
+
+.comunidad img{
+    width: 80%;    
+
+}
+
+.texto, .footer{    
+    padding: 2rem;
+    color: aliceblue;
+}
+
+.footer{
+    background-color: black;
+}
+@media(min-width:552px){
+    .agregado{
+        display: none;
+    }
+}
+
+/* TABLETAS */
+@media(min-width:768px){
+    body{
+        background-color: cadetblue;
+    }
+    .tienda{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(225, 186, 135);
+    }
+    .tienda div{
+        width: 30%;
+    }
+    .tienda img{
+        width: 90%;
+    }
+    .comunidad{
+        display: flex;
+    }  
+    .agregado{
+        display: block;
+    }
+
+
+}
+@media(min-width:768px) and (max-width:1024px){
+    .tienda{
+        text-align: left;
+    }
+
+}
+
+/* ESCRITORIOS NORMALES */
+
+@media(min-width:992px){
+    .tienda{
+        flex-wrap: nowrap;
+    }
+}
+
+/* PATNTALLAS GRANDES */
+@media(min-width:1200px){
+    body{
+        background-color: chocolate;
+    }
+  
+}
