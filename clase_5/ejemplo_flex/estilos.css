@@ -1,0 +1,32 @@
+.caja{
+    height: 150px;
+    width: 150px;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+
+}
+
+.verde{
+    background-color: green;
+    width: 100%;
+}
+
+.naranja{
+    background-color: orange;
+}
+.rosa{
+    background-color: pink;
+}
+.amarillo{
+    background-color: yellow;
+}
+.contenedor_padre{
+    display: flex;
+    justify-content: center;
+}
