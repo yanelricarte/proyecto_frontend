@@ -51,7 +51,7 @@ for (let i = 0; i <=10; i++){
     alert (i)
 }
 
-*/
+
 for (let i = 1; i <= 5; i++ ){
 
 // Solicitar en cada repeticion un nombre
@@ -99,3 +99,48 @@ for (let i = 0; i < 4; i++) {
 
 
 
+// Métodos de ARRAYS: FOREACH
+
+let objetosMagicos = ["Varita", "Libro", "Lechuza", "Caldero"];
+
+objetosMagicos.forEach(function(objetosMagicos){
+    console.log("Objeto con Foreach es:", objetosMagicos);
+})
+
+objetosMagicos.forEach((objetosMagicos)=>
+    console.log("Lo mismo con función flecha:", objetosMagicos)
+)
+
+
+//MAP 
+
+const numeros = [ 1, 2, 3, 4, 5, 6];
+const porDos = numeros.map((x) => x * 2 );
+const porCien = numeros.map((x) => x * 100 );
+
+
+
+console.log("Por DOS ", porDos);
+console.log("Por CIEN ", porCien);
+
+
+//FIND
+
+const encontrado = numeros.find(elemento => elemento > 3 );
+
+console.log(encontrado);
+
+const nombres = ["Ana", "Ema", "Juan"];
+const encontrado2 = nombres.find((elemento) => elemento === "Ema");
+
+console.log(encontrado2);
+*/
+
+// FILTER
+
+let numeros = [2, 5, 6, 18, 201];
+let numMayoresCinco = numeros.filter((n) => {
+    return n > 5
+})
+
+console.log(numMayoresCinco);
