@@ -1,0 +1,30 @@
+main{
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article{
+    background-color: gray;
+    width: 14rem;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.nombre{
+    color: whitesmoke;
+    font-size: 1.4rem;
+}
+.imagen{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.imagen img{
+    width: 100%;
+    padding: 1rem;
+}
