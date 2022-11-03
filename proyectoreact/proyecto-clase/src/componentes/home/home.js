@@ -8,8 +8,9 @@ const Home = () => {
 
     return(
     <header>
+        <Intro titulo= " Cosme Fulanito" />        
         <h3> Header del componente llamado HOME </h3>
-        <Intro />
+
     </header>
 );}
 
