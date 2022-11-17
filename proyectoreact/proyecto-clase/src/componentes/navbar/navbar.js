@@ -15,7 +15,8 @@ const Menu = () => {
                     <Nav className="me-auto">
                         <Nav.Link href="/">Cosme fulanito </Nav.Link>
                         <Nav.Link href="/contacto">Contacto</Nav.Link>
-                        <Nav.Link href="">Otro item</Nav.Link>
+                        <Nav.Link href="/personajes"> Personajes</Nav.Link>
+                        <Nav.Link href="/ejemplo"> Ejemplo</Nav.Link>
 
                         
                     </Nav>
